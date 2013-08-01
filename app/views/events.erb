@@ -1,0 +1,14 @@
+<% @user.created_events.each do |event|%>
+<h2><%= event.name %> <a href="/events/edit/<%= event.id %>">Edit</a> <a href="/events/delete/<%= event.id %>">Delete</a></h2>
+<% end %>
+
+<!-- <h3><a href="/events/create">Create a new event</a></h3> -->
+
+Create a new event
+<form id="new" action="/events/create" method="post">
+  Event Name: <input type="text" name="event[name]">
+  Location: <input type="text" name="event[location]">
+  Start Date and Time: <input type="text" name="event[starts_at]">
+  End Date and Time: <input type="text" name="event[ends_at]">
+  <input type="submit" value="Submit">
+</form>

@@ -1,0 +1,8 @@
+Edit event
+<form action="/events/edit/<%= @event.id %>" method="post">
+  Event Name: <input type="text" name="event[name]">
+  Location: <input type="text" name="event[location]">
+  Start Date and Time: <input type="text" name="event[starts_at]">
+  End Date and Time: <input type="text" name="event[ends_at]">
+  <input type="submit" value="Submit">
+</form>
