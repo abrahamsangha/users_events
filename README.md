@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Events Management Application
 By now you should be familiar with basic sinatra apps and creating simple websites.  This problem will give you a chance to demonstrate your proficiency with the web by writing code for controllers, authentication, views, and basic HTML forms with a little bit of CSS. We're going full [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) and building a simple event-management application.
 
@@ -52,3 +53,7 @@ With user authentication in place, create pages which let the user create new ev
 
 ### Part 4: AJAXify it (Timing ~ 30 min)
 On the page that lists all the events created by the user, add the form for creating a new event.  Use AJAX on this form so that when a user adds a new event, that new event is appended to the list of created events without refreshing the page.
+=======
+users_events
+============
+>>>>>>> 454a9791541f4c319ebcef132fa90c4c8e97b11f
